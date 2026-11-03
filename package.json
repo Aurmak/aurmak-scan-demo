@@ -1,0 +1,13 @@
+{
+  "name": "aurmak-scan-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Harmless samples for demonstrating AURMAK Cyber Scan. Do not install.",
+  "scripts": {
+    "postinstall": "node scripts/setup.js",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "crossenv": "^6.1.1"
+  }
+}
